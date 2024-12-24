@@ -1,10 +1,10 @@
-const url = 'https://crypto-prices-api.p.rapidapi.com/prices';
 const options = {
-	method: 'GET',
-	headers: {
-		'x-rapidapi-key': '83dc11be13msh70b549bd17644c1p191c70jsn688aa82a7440',
-		'x-rapidapi-host': 'crypto-prices-api.p.rapidapi.com'
-	}
+    method: 'GET',
+    headers: {
+        accept: 'application/json',
+        'x-chain': 'solana',
+        'X-API-KEY': 'cd811768f7434753b1d85878d8c34196'
+    }
 };
 // fetch('https://public-api.birdeye.so/defi/tokenlist?sort_by=v24hUSD&sort_type=desc&offset=0&limit=50&min_liquidity=100', options)
 //     .then(res => res.json())
