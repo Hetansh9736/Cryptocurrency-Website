@@ -124,6 +124,7 @@ ul li {
     width: 150px;
     text-overflow: ellipsis;
     overflow: hidden;
+    
 }
 
 .price {
